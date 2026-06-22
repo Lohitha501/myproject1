@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HAPIESTTTT BIRTHDAYYY MYY MANNN ❤️</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    overflow:hidden;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+}
+
+/* First Page */
+#firstPage{
+    text-align:center;
+    margin-top:80px;
+}
+
+h1{
+    color:white;
+    font-size:60px;
+    text-shadow:0 0 20px #ff0066;
+}
+
+.balloons{
+    font-size:60px;
+    animation:float 2s infinite alternate;
+}
+
+@keyframes float{
+    from{transform:translateY(0);}
+    to{transform:translateY(-25px);}
+}
+
+.hearts{
+    font-size:40px;
+    animation:heartMove 1.5s infinite alternate;
+}
+
+@keyframes heartMove{
+    from{transform:translateY(0);}
+    to{transform:translateY(15px);}
+}
+
+.cake{
+    font-size:120px;
+    margin:30px;
+    animation:bounce 1.5s infinite;
+}
+
+@keyframes bounce{
+    50%{
+        transform:translateY(-20px);
+    }
+}
+
+button{
+    padding:20px 40px;
+    font-size:25px;
+    border:none;
+    border-radius:50px;
+    background:white;
+    color:#ff3366;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* Second Page */
+#secondPage{
+    display:none;
+    padding:30px;
+    text-align:center;
+}
+
+.box{
+    background:white;
+    width:80%;
+    margin:30px auto;
+    padding:40px;
+    border-radius:30px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    font-size:28px;
+    color:#ff3366;
+}
+</style>
+
+</head>
+<body>
+
+<!-- First Page -->
+<div id="firstPage">
+
+<div class="hearts">
+❤️ 💖 💕 💗 ❤️
+</div>
+
+<div class="balloons">
+🎈 🎈 🎉 🎈 🎈
+</div>
+
+<h1>HAPIESTTTT BIRTHDAYYY MYY MANNN ❤️❤️</h1>
+
+<div class="cake">
+🎂
+</div>
+
+<button onclick="openSurprise()">
+Open My Surprise 🎁
+</button>
+
+</div>
+
+<!-- Second Page -->
+<div id="secondPage">
+
+<div class="box">
+❤️ Every moment with you feels like magical. Thank you for making my life soo beautiful.you treated me so best even i cant have words to describe it.!!
+</div>
+
+<div class="box">
+💙 No matter what happens, my heart will always belong to you. I loveee youuu endlessly.may wish success from this bdayy.
+</div>
+
+<div class="box">
+🥰 You are my happiness, my strength, and my favorite person. Happyyy Birthdayyy to most handsome mann❤️
+</div>
+
+</div>
+
+<script>
+function openSurprise(){
+    document.getElementById("firstPage").style.display="none";
+    document.getElementById("secondPage").style.display="block";
+}
+</script>
+
+</body>
+</html>
